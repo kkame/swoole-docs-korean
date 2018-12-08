@@ -2,8 +2,13 @@
 
 Memory data structure likes Chan in Golang, implemented based on shared memory and Mutex locks. It can be used as high performance message queue in memory. 
 
+Chan in Golang, 공유 메모리 및 뮤텍스 잠금을 기반으로합니다. 메모리의 고성능 메시지 대기열로 사용될 수 있습니다.
+
 * Don't have to warry about data synchronization issues when use swoole channel in multiple processes
 * Swoole Channel has to be created in the parent process, and to be used in the child processes
+
+* 여러 프로세스에서 스풀 채널을 사용할 때 데이터 동기화 문제를 걱정할 필요가 없습니다.
+* 스몰 채널은 부모 프로세스에서 생성되어야하며 자식 프로세스에서 사용되어야합니다.
 
 ### Example
 

@@ -2,6 +2,8 @@
 
 The swoole contains the swoole async MySQL client. It has realized the protocal of MySQL and is a replacement of the other sync MySQL clients: libmysqlclient, mysqlnd, mysqli.
 
+swoole에는 swoole async MySQL 클라이언트가 포함되어 있습니다. MySQL 클라이언트 : libmysqlclient, mysqlnd, mysqli.
+
 ## Example:
 
 ``` php
@@ -50,11 +52,17 @@ $db->connect($server, function ($db, $r) {
 
 Register callback function based on event name, current only 'Clost' event is supported.
 
+swoole은 swoole async를 swoole합니다. MySQL 클라이언트 : libmysqlclient, mysqlnd, mysqli.
+
 ### swoole_mysql->connect(array $serverConfig, callable $callback);
 
 Connect to the remote MySQL server.
 
+원격 MySQL 서버에 연결하십시오.
+
 Example:
+
+예제 :
 
 ``` php
 <?php
@@ -75,7 +83,11 @@ function onConnect(swoole_mysql $db, bool $result);
 
 Escape SQL strings to avoid SQL injection attacks.
 
+SQL 삽입 공격을 피하기 위해 SQL 문자열을 이스케이프 처리합니다.
+
 Example:
+
+예제 :
 
 ``` php
 <?php
@@ -95,15 +107,25 @@ $db->connect($server, function ($db, $result) {
 
 Run SQL query.
 
+SQL 쿼리를 실행하십시오.
+
 Callback function:
 
+콜백 함수 :
+
 function onSQLReady(swoole_mysqli $link, mixed $result);
+
+함수 onSQLReady (swoole_mysqli $ link, mixed $ result);
 
 #### swoole_mysql->begin(callable $callback);
 
 Start a MySQL transaction.
 
+MySQL 트랜잭션을 시작하십시오.
+
 Example:
+
+예제 :
 
 ``` php
 <?php
@@ -120,7 +142,11 @@ $db->begin(function( $db, $result) {
 
 Commit the MySQL transaction.
 
+MySQL 트랜잭션을 커밋하십시오.
+
 Example:
+
+예 :
 
 ``` php
 <?php
@@ -137,6 +163,10 @@ $db->begin(function( $db, $result) {
 
 Rollback the MySQL transaction.
 
+MySQL 트랜잭션을 롤백하십시오.
+
 #### swoole_mysql->close();
 
 Close the MySQL connection.
+
+MySQL 연결을 닫습니다.

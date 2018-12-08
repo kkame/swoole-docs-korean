@@ -2,6 +2,8 @@
 
 Swoole async redis client is based on *hiredis*.
 
+Swoole async redis 클라이언트는 * hiredis *를 기반으로합니다.
+
 ### Install *hiredis* library
 
 ``` bash
@@ -33,7 +35,11 @@ sudo make install
 
 Connect to the Redis server.
 
+Redis 서버에 연결하십시오.
+
 Example:
+
+예제 :
 
 ``` php
 <?php
@@ -53,7 +59,11 @@ $client->connect('127.0.0.1', 6379, function (swoole_redis $client, $result) {
 
 Register callback function based on event name: *Close* and *Message*, *Receive*.
 
+이벤트 이름에 기반한 콜백 함수 등록 : * Close * 및 * Message *, * Receive *.
+
 Example:
+
+예제 :
 
 ``` php
 <?php
@@ -79,7 +89,11 @@ $client->connect('127.0.0.1', 6379, function (swoole_redis $client, $result) {
 
 Execute redis client commands: [http://redis.io/commands](http://redis.io/commands)
 
+redis 클라이언트 명령을 실행합니다 : [http://redis.io/commands](http://redis.io/commands)
+
 Commands:
+
+명령 :
 
 * subscribe
 * psubscribe
@@ -89,3 +103,5 @@ Commands:
 #### function swoole_redis->close();
 
 Close the redis connection.
+
+다시 연결을 닫습니다.

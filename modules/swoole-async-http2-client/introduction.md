@@ -2,7 +2,11 @@
 
 Http2.0 client support stream and multiplexing. Multiple GET or POST request can be sent over the same TCP connection.
 
+Http2.0 클라이언트 지원 스트림 및 멀티플렉싱. 여러 개의 GET 또는 POST 요청은 동일한 TCP 연결을 통해 이루어질 수 있습니다.
+
 Swoole HTTP2 client is based on *nghttp2*, enable this feature when compiling with *--enable-nghttp2*, *--enable-openssl* or *--with-openssl-dir*.
+
+Swoole HTTP2 클라이언트는 * nghttp2 *를 기반으로 * - enable-nghttp2 *, * - enable-openssl * 또는 * - with openssl-dir *을 사용하여 컴파일 할 때이 기능을 활성화합니다.
 
 ## Example
 
@@ -42,9 +46,13 @@ Swoole\Event::wait();
 
 Construct HTTP2 client.
 
+HTTP2 클라이언트를 구성합니다.
+
 #### function swoole_http_client->get(string $path, callable $callback);
 
 Send *GET* request, example callback function:
+
+* GET * 요청, 예제 콜백 함수 보내기 :
 
 ``` php
 <?php
@@ -62,6 +70,8 @@ function callback(Swoole\Http2\Response $resp)
 
 Send *POST* request, example:
 
+* POST * 요청 보내기, 예 :
+
 ``` php
 <?php
 $cli = new swoole_http2_client('127.0.0.1', 80); 
@@ -75,9 +85,13 @@ $cli->post('/post.php', array("a" => '1234', 'b' => '456'), function ($response)
 
 Setup the http request headers.
 
+http 요청 헤더를 설정합니다.
+
 #### function swoole_http2_client->setCookies(array $cookies);
 
 Setup the http request cookies.
+
+http 요청 쿠키를 설정하십시오.
 
 
 
