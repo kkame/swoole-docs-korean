@@ -1,5 +1,3 @@
-## Method
-
 ### swoole_server->connection_list
 
 #### Prototype

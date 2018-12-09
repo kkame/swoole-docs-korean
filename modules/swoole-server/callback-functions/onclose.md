@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onClose
 
 The event `close` happens when the TCP connection between the client and the server is closed.

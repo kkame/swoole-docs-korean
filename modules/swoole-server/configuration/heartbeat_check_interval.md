@@ -1,5 +1,3 @@
-## Configuration
-
 ### heartbeat_check_interval
 
 This configuration `heartbeat_check_interval` is the interval of polling every TCP connection. 

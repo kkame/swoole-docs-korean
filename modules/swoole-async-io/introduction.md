@@ -78,21 +78,21 @@ Write file in the async way. When the operation of writing content to file finis
 
 - `$filename` the file path of file. If fail to open this file, the method return false; 
 
--`$ filename`은 파일의 파일 경로입니다. 이 파일을 열지 않으면 메서드는 false를 반환합니다.
+- `$filename`은 파일의 파일 경로입니다. 이 파일을 열지 않으면 메서드는 false를 반환합니다.
 
 - `$fileContent` the content to write to the file, The max length is 4M.
 
--`$ fileContent`는 파일에 쓸 내용입니다. 최대 길이는 4M입니다.
+- `$fileContent`는 파일에 쓸 내용입니다. 최대 길이는 4M입니다.
 
 - `$callback` the callback function triggered when the operation of writing content to file finished.
 
--`$ callback` 파일에 내용을 쓰는 작업이 끝났을 때 발생하는 콜백 함수.
+- `$callback` 파일에 내용을 쓰는 작업이 끝났을 때 발생하는 콜백 함수.
 
 - `$flags` `FILE_APPEND`: append content to the end of file.
             If the aio mode setted by `swoole_async_set` is `SWOOLE_AIO_BASE`, the method can't support append content to the end of file and must set the value of `$fileContent` to integer multiples of 4096.
 
--`$ flags`` FILE_APPEND` : 파일의 끝에 내용을 추가합니다.
-             swoole_async_set에 의해 설정된 aio 모드가 SWOOLE_AIO_BASE라면,이 메소드는 파일의 끝에 추가 내용을 지원할 수 없으며`$ fileContent`의 값을 4096의 정수배로 설정해야합니다.
+- `$flags`` FILE_APPEND` : 파일의 끝에 내용을 추가합니다.
+             swoole_async_set에 의해 설정된 aio 모드가 SWOOLE_AIO_BASE라면,이 메소드는 파일의 끝에 추가 내용을 지원할 수 없으며 `$fileContent`의 값을 4096의 정수배로 설정해야합니다.
 
 Example:
 
@@ -113,11 +113,11 @@ Read the file content stream in the async way. When the operation of reading con
 
 The difference between this method and `swoole_async_readfile` is that the former reads file by fragment and uses less memory. This method reads content of `$size` length from file every time and can be used to read big file.
 
-이 방법과`swoole_async_readfile`의 차이점은 이전의 파일을 조각으로 읽고 더 적은 메모리를 사용한다는 것입니다. 이 메소드는 매번 파일에서`$ size` 길이의 내용을 읽고 큰 파일을 읽는 데 사용할 수 있습니다.
+이 방법과`swoole_async_readfile`의 차이점은 이전의 파일을 조각으로 읽고 더 적은 메모리를 사용한다는 것입니다. 이 메소드는 매번 파일에서 `$size` 길이의 내용을 읽고 큰 파일을 읽는 데 사용할 수 있습니다.
 
 - `$size` the size of content to read from file
 
--`$ size`는 파일로부터 읽을 내용의 크기입니다.
+- `$size`는 파일로부터 읽을 내용의 크기입니다.
 
 The callback function prototype is :
 
@@ -128,7 +128,7 @@ bool callback(string $filename, string $content);
 ```
 - `$filename` the name of file
 
--`$ filename` 파일의 이름
+- `$filename` 파일의 이름
 
 - `$content` the content readed from the file.
 
@@ -160,9 +160,9 @@ The difference between this method and `swoole_async_writefile` is that the form
             If the `$offset` is setted to `-1`, it stands for that it appends content to the end of file.
             If the aio mode setted by `swoole_async_set` is `SWOOLE_AIO_BASE`, the method can't support append content to the end of file and must set the value of `$content` and `$offset` to integer multiples of 512. Otherwise the call of this method will fail and set the error code to `EINVAL`.
 
--`$ offset`이 메소드는`$ offset` 매개 변수를 사용하여 파일을 쓸 위치를 결정합니다.
-             `$ offset`이`-1`로 설정되면, 그것은 파일의 끝에 추가한다는 것을 의미합니다.
-             `swoole_async_set`에 의해 설정된 aio 모드가`SWOOLE_AIO_BASE` 인 경우, 메소드는 파일의 끝에 추가 내용을 지원할 수 없으며`$ content`와`$ offset`의 값을 512의 정수배로 설정해야합니다. 이 메소드를 호출하여 실패하고 오류 코드를 'EINVAL'로 설정하십시오.
+- `$offset`이 메소드는 `$offset` 매개 변수를 사용하여 파일을 쓸 위치를 결정합니다.
+              `$offset`이`-1`로 설정되면, 그것은 파일의 끝에 추가한다는 것을 의미합니다.
+             `swoole_async_set`에 의해 설정된 aio 모드가`SWOOLE_AIO_BASE` 인 경우, 메소드는 파일의 끝에 추가 내용을 지원할 수 없으며 `$content`와 `$offset`의 값을 512의 정수배로 설정해야합니다. 이 메소드를 호출하여 실패하고 오류 코드를 'EINVAL'로 설정하십시오.
 
 ### swoole_async_dns_lookup(string $host, mixed $callback)
 
@@ -176,7 +176,7 @@ Async DNS lookup. The call of this method is non-blocking.
 
 - If the operation of DNS lookup failed, the callback registered is also called automatically and the parameter `$ip` will be empty.
 
-- DNS 조회 작업이 실패하면 등록 된 콜백도 자동으로 호출되며 매개 변수`$ ip '는 비어 있습니다.
+- DNS 조회 작업이 실패하면 등록 된 콜백도 자동으로 호출되며 매개 변수 `$ip '는 비어 있습니다.
 
 Example:
 

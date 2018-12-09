@@ -18,11 +18,11 @@ Serialize the data.
 
 - `$data` the data to serialize
 
--`$ data`는 직렬화 할 데이터입니다.
+- `$data`는 직렬화 할 데이터입니다.
 
 - `$is_fast` if enable fast mode
 
-- 고속 모드를 가능하게한다면`$ is_fast`
+- 고속 모드를 가능하게한다면 `$is_fast`
 
 #### Return
 
@@ -42,7 +42,7 @@ Unserialize the data.
 
 - `$data` the data to unserialize
 
--`$ data`는 비 직렬화 할 데이터입니다.
+- `$data`는 비 직렬화 할 데이터입니다.
 
 #### Return
 

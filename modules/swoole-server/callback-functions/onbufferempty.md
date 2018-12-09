@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onBufferEmpty
 
 The event `bufferempty` happens when the buffer watermark is lowest.

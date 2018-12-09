@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_websocket_protocol
 
 Enable the process of websocket protocal.

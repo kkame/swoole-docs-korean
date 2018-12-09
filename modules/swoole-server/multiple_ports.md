@@ -1,5 +1,3 @@
-## Swoole Server
-
 ### Listening On Multiple Ports
 
 The swoole supports listening on multiple ports and analyzing multiple protocols.

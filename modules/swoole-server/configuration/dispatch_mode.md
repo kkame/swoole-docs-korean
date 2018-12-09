@@ -1,5 +1,3 @@
-## Configuration
-
 ### dispatch_mode
 
 The mode of dispatching connections to worker process.

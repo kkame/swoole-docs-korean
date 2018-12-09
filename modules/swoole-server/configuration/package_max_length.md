@@ -1,5 +1,3 @@
-## Configuration
-
 ### package_max_length
 
 The max length of package whose unit is byte.

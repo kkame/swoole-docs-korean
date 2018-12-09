@@ -1,5 +1,3 @@
-## Swoole Server
-
 ### Methods List
 
 #### Table of Contents

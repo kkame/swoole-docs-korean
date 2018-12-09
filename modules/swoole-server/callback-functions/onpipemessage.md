@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onPipeMessage
 
 When the worker process or task worker process receives the message sent by `sendMessage`, the event `pipeMessage` happens. 

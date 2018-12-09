@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onWorkerError
 
 When there is error or exception in the worker process or task worker process, the event `workererror` happens in the manager process.

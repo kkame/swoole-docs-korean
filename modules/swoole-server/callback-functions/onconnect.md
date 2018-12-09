@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onConnect
 
 This event `connect` happens when the new connection comes. And the worker process will call the callback function registered for the event `connect`.

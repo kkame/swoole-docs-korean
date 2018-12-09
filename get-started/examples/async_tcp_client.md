@@ -53,7 +53,7 @@ It needs to register functions for the events. There are four events which must 
 
 `$client->connect` returns immediately. When an event is triggered, the swoole would call the corresponding function registered for the event.
 
-`$ client-> connect`는 즉시 리턴합니다. 이벤트가 트리거되면 스풀은 이벤트에 대해 등록 된 해당 기능을 호출합니다.
+ `$client->connect`는 즉시 리턴합니다. 이벤트가 트리거되면 스풀은 이벤트에 대해 등록 된 해당 기능을 호출합니다.
 
 ### Run program
 

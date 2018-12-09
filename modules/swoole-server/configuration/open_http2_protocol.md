@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_http2_protocol
 
 Enable the process of http2 protocal.

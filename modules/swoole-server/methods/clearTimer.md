@@ -1,5 +1,3 @@
-## Method
-
 ### swoole_server->clearTimer
 
 #### Prototype

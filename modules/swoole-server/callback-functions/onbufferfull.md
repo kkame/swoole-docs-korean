@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onBufferFull
 
 The event `bufferfull` happens when the buffer watermark is highest.

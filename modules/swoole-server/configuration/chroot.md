@@ -1,5 +1,3 @@
-## Configuration
-
 ### chroot
 
 Redirect the root path of worker process.

@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_eof_check
 
 This configuration is to check the package eof. The package eof is setted by [the configuration package_eof](/modules/swoole-server/configuration/package_eof.md) 

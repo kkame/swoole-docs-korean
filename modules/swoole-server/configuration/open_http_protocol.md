@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_http_protocol
 
 Enable the process of http protocal.

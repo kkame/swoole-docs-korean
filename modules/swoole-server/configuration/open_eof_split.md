@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_eof_split
 
 Enable the split of data to package.

@@ -1,5 +1,3 @@
-## Configuration
-
 ### discard_timeout_request
 
 If the configuration of `dispatch_mode` is 1 or 3, there may be some data that arrive to worker process after closing the connection.

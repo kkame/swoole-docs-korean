@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onManagerStop
 
 The event `managerstop` happens when the manager process stops.

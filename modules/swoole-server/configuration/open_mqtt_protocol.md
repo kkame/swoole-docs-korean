@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_mqtt_protocol
 
 Enable the process of mqtt protocal.

@@ -31,7 +31,7 @@ $websocket_server->start();
 
 Websocket server is based on the http server. The client will first send a handshake request to start the WebSockrt handshake process. If the process of handshake successed, the swoole would call the function registered for event `open` and get the `$request` object. The `$request` object contains the information of GET, Cookie and Http headers. 
 
-Websocket 서버는 http 서버를 기반으로합니다. 클라이언트는 먼저 WebSockrt 핸드 셰이크 프로세스를 시작하기 위해 핸드 셰이크 요청을 보냅니다. 핸드 쉐이크가 성공하면, swoole은 이벤트`open`을 위해 등록 된 함수를 호출하고`$ request` 객체를 얻습니다. `$ request` 객체는 GET, Cookie 및 Http 헤더 정보를 포함합니다.
+Websocket 서버는 http 서버를 기반으로합니다. 클라이언트는 먼저 WebSockrt 핸드 셰이크 프로세스를 시작하기 위해 핸드 셰이크 요청을 보냅니다. 핸드 쉐이크가 성공하면, swoole은 이벤트`open`을 위해 등록 된 함수를 호출하고 `$request` 객체를 얻습니다.  `$request` 객체는 GET, Cookie 및 Http 헤더 정보를 포함합니다.
 
 Once the connection has been setted, the client and the server can make the interactive communication.
 
@@ -43,7 +43,7 @@ Once the connection has been setted, the client and the server can make the inte
 
 - The server uses `$websocket_server->push($fd, $data)` to send data to the client
 
-- 서버는`$ websocket_server-> push ($ fd, $ data)`를 사용하여 클라이언트에게 데이터를 보낸다.
+- 서버는 `$websocket_server->push ($fd, $ data)`를 사용하여 클라이언트에게 데이터를 보낸다.
 
 - The server is able to register the function for event `handshake` to handle the handshake
 

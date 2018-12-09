@@ -1,5 +1,3 @@
-## Configuration
-
 ### message_queue_key
 
 Set the key of message queue.

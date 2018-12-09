@@ -1,5 +1,3 @@
-## Swoole Server
-
 ### Configurations List
 
 #### Table of Contents

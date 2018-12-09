@@ -1,7 +1,3 @@
-# Swoole WebSocket server
-
-## Events and Callback Functions
-
 ### onMessage
 
 The event `message` happens when the swoole websocket server receives the data frame from the client.

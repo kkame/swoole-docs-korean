@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onTask
 
 The event `task` happens when the worker process send a task data to task worker processed pool.

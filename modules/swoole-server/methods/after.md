@@ -1,5 +1,3 @@
-## Method
-
 ### swoole_server->after
 
 #### Prototype

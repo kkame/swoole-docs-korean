@@ -6,7 +6,7 @@ Integer variable allows any processor to atomically test and modify. Implemented
 
 > The Swoole atomic variables have to defined before *swoole_server->start*.
 
-> swoole 원자 변수는 * swoole_server-> start * 전에 정의되었습니다.
+> swoole 원자 변수는 * swoole_server->start * 전에 정의되었습니다.
 
 Compare-and-swap (CAS) is an atomic instruction used in multithreading to achieve synchronization. It compares the contents of a memory location with a given value and, only if they are the same, modifies the contents of that memory location to a new given value. 
 

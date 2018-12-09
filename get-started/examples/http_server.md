@@ -25,7 +25,7 @@ http 서버의 경우 가장 중요한 작업은 요청을 처리하고 응답�
 
 When the new http request comes, the server will call the function registered for request to handle. The swoole will pass two parameters, `$request` and `$response`, in the registered function. 
 
-새 http 요청이 오면 서버는 처리 요청에 등록 된 함수를 호출합니다. swoole은 등록 된 함수에서 두 개의 매개 변수 인`$ request`와`$ response`를 전달합니다.
+새 http 요청이 오면 서버는 처리 요청에 등록 된 함수를 호출합니다. swoole은 등록 된 함수에서 두 개의 매개 변수 인 `$request`와 `$response`를 전달합니다.
 
 The parameter `$request` contains the information about the http request, for example GET/POST data.
 
@@ -33,7 +33,7 @@ The parameter `$request` contains the information about the http request, for ex
 
 The parameter `$response` is handled by swoole to send the data to client. `$response->end($data)` will output the `$data` to the client in the form of html and  close the connection. 
 
-`$ response` 매개 변수는 swoole에 의해 처리되어 클라이언트에 데이터를 보냅니다. `$ response-> end ($ data)`는`$ data`를 html 형식으로 클라이언트에 출력하고 연결을 닫습니다.
+ `$response` 매개 변수는 swoole에 의해 처리되어 클라이언트에 데이터를 보냅니다.  `$response->end ($data)`는 `$data`를 html 형식으로 클라이언트에 출력하고 연결을 닫습니다.
 
 - '0.0.0.0' represents that the server listens all ip addresses.
 - '9501' represents the port that the server listens at. If the port has already been used, the swoole would throw a fatal error and stop execution.

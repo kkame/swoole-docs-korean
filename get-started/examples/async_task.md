@@ -39,7 +39,7 @@ $server->on('task', function($server, $task_id, $from_id, $data){
 	echo "Receive new task, id : {$task_id}\n";
 
 	// Return the result of executing task
-	$server->finish("{$data} -> finished");
+	$server->finish("{$data} ->finished");
 });
 
 // Register the function for the event of receiving task result

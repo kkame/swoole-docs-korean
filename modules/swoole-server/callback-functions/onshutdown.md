@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onShutdown
 
 The event `shutdown` happens when the swoole server shutdowns.

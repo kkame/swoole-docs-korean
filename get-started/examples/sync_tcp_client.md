@@ -42,15 +42,15 @@ This client is synchronous and blocking. The operations, like connect, send and 
 
 - If the operation of connecting server needs 100ms, `$client->connect` will block and cost 100ms.
 
-- 접속 서버의 동작이 100ms 필요하면`$ client-> connect`가 차단되어 100ms가 소요됩니다.
+- 접속 서버의 동작이 100ms 필요하면 `$client->connect`가 차단되어 100ms가 소요됩니다.
 
 - `$client->send` can return immediately when to send small data. But it could be blocked when to send large data because the data could fill in the socket send buffer.
 
--`$ client-> send`는 작은 데이터를 보낼 때 즉시 반환 할 수 있습니다. 그러나 데이터가 소켓 보내기 버퍼를 채울 수 있으므로 대용량 데이터를 보낼 때 차단 될 수 있습니다.
+- `$client->send`는 작은 데이터를 보낼 때 즉시 반환 할 수 있습니다. 그러나 데이터가 소켓 보내기 버퍼를 채울 수 있으므로 대용량 데이터를 보낼 때 차단 될 수 있습니다.
 
 - `$client->recv` blocks to wait the return data of the server. The elapsed time equals to the sum of the time for procees data in server and the time for tranporting data
 
--`$ client-> recv` 블록은 서버의 리턴 데이터를 기다린다. 경과 시간은 서버에있는 procees 데이터의 시간과 데이터 전송을위한 시간의 합계와 같습니다
+- `$client->recv` 블록은 서버의 리턴 데이터를 기다린다. 경과 시간은 서버에있는 procees 데이터의 시간과 데이터 전송을위한 시간의 합계와 같습니다
 
 ### Run program
 

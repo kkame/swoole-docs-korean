@@ -1,4 +1,3 @@
-# Swoole WebSocket server
 
 ## Predefined Contants
 

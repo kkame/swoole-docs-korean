@@ -1,5 +1,3 @@
-## Configuration
-
 ### package_length_type
 
 The type of length. For now, the swoole supports 10 types.

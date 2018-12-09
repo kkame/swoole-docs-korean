@@ -1,7 +1,3 @@
-# Swoole Redis Server
-
-## Methods
-
 The class `swoole_redis_server` inherits from the class `swoole_server`.
 
 It can call the methods of class `swoole_server` and its own methods. 

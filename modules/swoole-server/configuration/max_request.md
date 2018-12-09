@@ -1,5 +1,3 @@
-## Configuration
-
 ### max_request
 
 the number of max request the worker process could receive.

@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onReceive
 
 The event `receive` happens when the worker process receives the data.

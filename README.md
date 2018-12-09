@@ -78,7 +78,7 @@ $http->start();
 * 비동기 작업 API
 * 밀리 초 스케쥴러
 * 비동기 파일 I / O API
-* 프로세스 간 통신을위한 [Golang 스타일 채널] (https : //en.wikipedia.org/wiki/Channel_ \ (프로그래밍 \))
+* 프로세스 간 통신을위한 [Golang 스타일 채널](https://en.wikipedia.org/wiki/Channel_\(프로그래밍\))
 * 시스템 잠금 API : 파일 잠금, 읽기 쓰기 잠금, 세마포, 뮤텍스, 스핀 록
 * IPv4 / IPv6 / UnixSocket / TCP / UDP 및 SSL / TLS 지원
 * 고속 시리얼 라이저 / 언 시리얼 라이저
@@ -95,7 +95,7 @@ $http->start();
 
 Swoole framework is open source and free. Released under the license of Apache 2.0.
 
-* 웹 응용 프로그램 및 시스템
+* 웹 어플리케이션및 시스템
 * 이동 통신 시스템
 * 온라인 게임 시스템
 * 사물의 인터넷

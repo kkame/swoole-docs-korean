@@ -1,5 +1,3 @@
-## Configuration
-
 ### open_length_check
 
 Open the check of package length.

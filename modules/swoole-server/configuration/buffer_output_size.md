@@ -1,5 +1,3 @@
-## Configuration
-
 ### buffer_output_size
 
 Set the output buffer size in the memory.

@@ -1,5 +1,3 @@
-## Swoole Server
-
 ### Events List
 
 The swoole is an an high-performance network framework uses an event-driven, asynchronous, non-blocking I/O model makes it scalable and efficient. All the business logic is written in the callback functions of events. When a certain event is triggered, the swoole will call the callback function registered for the event. 

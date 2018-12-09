@@ -1,5 +1,3 @@
-## Configuration
-
 ### socket_buffer_size
 
 Set the buffer size of socket.

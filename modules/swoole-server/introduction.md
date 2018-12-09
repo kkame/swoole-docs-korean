@@ -1,5 +1,3 @@
-## Swoole server
-
 Swoole server provides the API for developers to write TCP, UDP, Unix Socket asynchronous servers. It supports IPv4, IPv6, one Way, two Way SSL and TLS Encryption. Developers do not have to know the internal implementations, only have to write the logics of the server in the callback functions.
 
 > Swoole server apis only can be used in the php cli mode.

@@ -1,7 +1,3 @@
-# Swoole Process Manager
-
-## Methods 
-
 ### swoole_process->pop
 
 #### Prototype

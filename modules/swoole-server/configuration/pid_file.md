@@ -1,5 +1,3 @@
-## Configuration
-
 ### pid_file
 
 The file path which the master process id saves in.

@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onFinish
 
 When the task finished, the task result would be sent to worker process and trigger the event `finish`.

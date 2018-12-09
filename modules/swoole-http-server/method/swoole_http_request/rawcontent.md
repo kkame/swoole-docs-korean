@@ -1,4 +1,3 @@
-## Swoole HTTP server
 
 ### swoole_http_request->rawContent
 

@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onWorkerStop
 
 This event `workerstop` happens when the worker process stops.

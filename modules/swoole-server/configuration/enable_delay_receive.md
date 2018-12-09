@@ -1,5 +1,3 @@
-## Configuration
-
 ### enable_delay_receive
 
 Enable the delay of receiving new connection.

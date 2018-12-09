@@ -130,7 +130,7 @@ Schedule functions to run at set intervals, accurate to milliseconds.
 
 Fast serialization for PHP.
 
-PHP를위한 빠른 직렬화.
+PHP를 위한 빠른 직렬화.
 
 ## [Swoole Memory](/modules/swoole-memory/introduction.md)
 

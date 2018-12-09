@@ -1,5 +1,3 @@
-## Configuration
-
 ### task_worker_num
 
 the number of task worker process.

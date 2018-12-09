@@ -1,5 +1,3 @@
-## Swoole Server
-
 ### Predefined Constants
 
 - `SWOOLE_VERSION` the version of swoole

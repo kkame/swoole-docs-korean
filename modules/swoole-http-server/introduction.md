@@ -46,7 +46,7 @@ PHP extension compile configuration:
 ./configure --enable-openssl --enable-http2
 ```
 
-## Swoole HTTP server configuration:
+ configuration:
 
 ``` bash
 // Enable SSL

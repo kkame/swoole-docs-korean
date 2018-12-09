@@ -1,5 +1,3 @@
-## Configuration
-
 ### package_length_func
 
 Set the function to check the length of package. The swoole supports the PHP function and C++ function.

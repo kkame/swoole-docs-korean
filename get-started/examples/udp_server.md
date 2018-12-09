@@ -23,11 +23,11 @@ UDP 서버로서 TCP 서버와 달리 연결의 개념이 없습니다. UDP 서�
 
 - `$clientInfo` is the information of client. It is a array which contains the ip address and port of client.
 
--`$ clientInfo`는 클라이언트의 정보입니다. 그것은 클라이언트의 IP 주소와 포트를 포함하는 배열입니다.
+- `$clientInfo`는 클라이언트의 정보입니다. 그것은 클라이언트의 IP 주소와 포트를 포함하는 배열입니다.
 
 - Calling the `$server->sendto($ip, $port, $data)` to send data to client
 
--`$ server-> sendto ($ ip, $ port, $ data)`를 호출하여 클라이언트에게 데이터 보내기
+- `$server->sendto ($ip, $ port, $ data)`를 호출하여 클라이언트에게 데이터 보내기
 
 
 ### Run program 

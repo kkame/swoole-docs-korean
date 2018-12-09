@@ -1,5 +1,3 @@
-## Swoole server
-
 ### Common problems
 
 #### Four types of callback functions

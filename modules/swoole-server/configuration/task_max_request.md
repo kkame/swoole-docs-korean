@@ -1,5 +1,3 @@
-## Configuration
-
 ### task_max_request
 
 the max number of task the task worker process could handle. 

@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onPacket
 
 The event `packet` happens when the worker process recevice the UDP package.

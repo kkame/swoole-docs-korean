@@ -23,7 +23,7 @@
 1. Swoole only supports PHP version &gt;= 5.3.10, PHP 5.4+ is recommended
 2. Swoole doesn't depend on the extensions like stream, sockets, pcntl, posix, sysvmsg, etc. You simply need to install the basic extensions for PHP.
 
-1. Swoole은 PHP 버전 & gt; = 5.3.10 만 지원하며 PHP 5.4+는 권장됩니다.
+1. Swoole은 PHP 버전 &gt; = 5.3.10 만 지원하며 PHP 5.4+를 권장합니다.
 2. Swoole은 스트림, 소켓, pcntl, posix, sysvmsg 등과 같은 확장 기능에 의존하지 않습니다. PHP의 기본 확장을 설치하기 만하면됩니다.
 
 ### Linux distributions recommended

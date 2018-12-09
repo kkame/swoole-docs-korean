@@ -1,5 +1,3 @@
-## Configuration
-
 ### log_file
 
 Set the log path of swoole.

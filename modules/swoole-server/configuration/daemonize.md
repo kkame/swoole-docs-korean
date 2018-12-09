@@ -1,5 +1,3 @@
-## Configuration
-
 ### daemonize
 
 Daemonize the swoole server process.

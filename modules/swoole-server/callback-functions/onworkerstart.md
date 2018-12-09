@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onWorkerStart
 
 The event `workerstart` happens when the worker process or task worker process starts.

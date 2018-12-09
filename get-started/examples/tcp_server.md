@@ -40,15 +40,15 @@ For example, if a tcp connection comes and connects to the tcp server, the swool
 
 - The server can be connected by thousands of client at the same time and `$fd` is the unique identifier of client.
 
-- 서버는 동시에 수천 개의 클라이언트로 연결될 수 있으며`$ fd`는 클라이언트의 고유 한 식별자입니다.
+- 서버는 동시에 수천 개의 클라이언트로 연결될 수 있으며 `$fd`는 클라이언트의 고유 한 식별자입니다.
 
 - When calling `$server->send($fd, $data)` to send data to client, `$fd` stands for the client.
 
--`$ server-> send ($ fd, $ data)`를 호출하여 클라이언트에게 데이터를 보낼 때,`$ fd`는 클라이언트를 나타낸다.
+- `$server->send ($fd, $ data)`를 호출하여 클라이언트에게 데이터를 보낼 때, `$fd`는 클라이언트를 나타낸다.
 
 - When calling `$server->close($fd)`, the connection between the client `$fd` and the server will be closed and the server will call the function registered for event `close`.
 
--`$ server-> close ($ fd)`를 호출하면 클라이언트`$ fd`와 서버 사이의 연결이 닫히고 서버는 이벤트`close`에 대해 등록 된 함수를 호출합니다.
+- `$server->close ($fd)`를 호출하면 클라이언트 `$fd`와 서버 사이의 연결이 닫히고 서버는 이벤트`close`에 대해 등록 된 함수를 호출합니다.
 
 - When the client closes the connection proactively, the server will call the function registered for event `close`.
 

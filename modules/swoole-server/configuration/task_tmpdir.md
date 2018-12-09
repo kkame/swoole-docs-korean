@@ -1,5 +1,3 @@
-## Configuration
-
 ### task_tmpdir
 
 Set the path of temporary task data. 

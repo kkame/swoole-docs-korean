@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onStart
 
 When the swoole server starts, the event `start` happens and the swoole will call the callback function registered for `start` in the master process.

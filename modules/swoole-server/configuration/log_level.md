@@ -1,5 +1,3 @@
-## Configuration
-
 ### log_level
 
 Set the level of log. 

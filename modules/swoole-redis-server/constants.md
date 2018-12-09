@@ -1,4 +1,3 @@
-# Swoole Redis Server
 
 ## Constants
 

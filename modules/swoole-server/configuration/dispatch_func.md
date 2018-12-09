@@ -1,5 +1,3 @@
-## Configuration
-
 ### dispatch_func
 
 Set the `dispatch_func` to dispatch the connection to the worker process.

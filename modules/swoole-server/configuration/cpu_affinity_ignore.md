@@ -1,5 +1,3 @@
-## Configuration
-
 ### cpu_affinity_ignore
 
 Set the cpu core number to handle the interrupt.

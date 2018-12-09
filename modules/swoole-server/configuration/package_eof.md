@@ -1,5 +1,3 @@
-## Configuration
-
 ### package_eof
 
 Set the end string of package.

@@ -1,5 +1,3 @@
-## Configuration
-
 ### max_conn
 
 The max number of connection the server could handle at the same time.

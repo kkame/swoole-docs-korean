@@ -1,7 +1,3 @@
-# Swoole Redis Server
-
-## Methods
-
 ### swoole_redis_server->setHandler
 
 #### Prototype

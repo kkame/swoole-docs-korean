@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onManagerStart
 
 The event `managerstart` happens when the manager process starts.

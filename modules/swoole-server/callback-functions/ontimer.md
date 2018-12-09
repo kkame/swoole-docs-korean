@@ -1,5 +1,3 @@
-## Events and Callback functions 
-
 ### onTimer
 
 The event `timer` happens when the timer expires.

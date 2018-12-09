@@ -1,4 +1,4 @@
-## Swoole HTTP server
+
 
 ### swoole_http_response->write
 

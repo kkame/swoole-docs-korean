@@ -1,7 +1,3 @@
-# Swoole WebSocket server
-
-## Events and Callback Functions
-
 ### onOpen
 
 The event `open` happens when the websocket server and client has created the connection and finished the handshake. And the callback function registered for event `open` will be called.

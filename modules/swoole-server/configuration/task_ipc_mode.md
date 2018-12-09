@@ -1,5 +1,3 @@
-## Configuration
-
 ### task_ipc_mode
 
 Set the communication mode between the task worker process and worker process.

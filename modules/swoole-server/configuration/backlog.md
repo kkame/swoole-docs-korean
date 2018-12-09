@@ -1,5 +1,3 @@
-## Configuration
-
 ### backlog
 
 The number of listen queue.

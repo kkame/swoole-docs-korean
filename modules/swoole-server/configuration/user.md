@@ -1,5 +1,3 @@
-## Configuration
-
 ### user
 
 Set the user of worker and task worker process.
