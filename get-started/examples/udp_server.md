@@ -4,7 +4,7 @@
 
 `udp_server.php`
 
-``` php
+```php
 // Create the server object which listens at 127.0.0.1:9502. Set the server type to SWOOLE_SOCK_UDP
 $server = new swoole_server("127.0.0.1", 9502, SWOOLE_PROCESS, SWOOLE_SOCK_UDP);
 
@@ -32,14 +32,14 @@ UDP 서버로서 TCP 서버와 달리 연결의 개념이 없습니다. UDP 서�
 
 ### Run program 
 
-``` bash
+```bash
 php udp_server.php
 ```
 You can use `netcat -u` to test.
 
 `netcat -u`를 사용하여 테스트 할 수 있습니다.
 
-``` bash
+```bash
 netcat -u 127.0.0.1 9502 
 hello
 Server : hello

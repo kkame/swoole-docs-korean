@@ -4,7 +4,7 @@
 
 `server.php`
 
-``` php
+```php
 // Create the server object and listen 127.0.0.1:9501
 $server = new swoole_server("127.0.0.1", 9501);
 
@@ -56,7 +56,7 @@ For example, if a tcp connection comes and connects to the tcp server, the swool
 
 ### Run program
 
-``` bash
+```bash
 php server.php
 ```
 
@@ -70,7 +70,7 @@ Use the `telnet` or `netcat` tool to connect the server.
 
 `telnet` 또는`netcat` 도구를 사용하여 서버에 연결하십시오.
 
-``` bash
+```bash
 telnet 127.0.0.1 9501
 hello
 Server: hello

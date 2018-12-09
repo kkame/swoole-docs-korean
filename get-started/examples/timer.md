@@ -4,7 +4,7 @@
 
 `swoole_timer.php`
 
-``` php
+```php
 // Executes the setted function repeatedly, with a fixed time dalay between each call 
 swoole_timer_tick(2000, function($timer_id){
 	echo "tick 2000ms\n";

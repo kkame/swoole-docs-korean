@@ -14,16 +14,20 @@ swoole_client->set(array $setting)
 
 Set the Swoole client parameters before the connection is established.
 
+연결이 설정되기 전에 Swoole 클라이언트 매개 변수를 설정하십시오.
+
 #### Parameter
 
 * `$setting`	the setting of swoole client
+
+*`$ setting`은 swoole 클라이언트 설정입니다.
 
 #### Return
 
 
 #### Example
 
-``` php
+```php
 <?php
 
 // Check EOF

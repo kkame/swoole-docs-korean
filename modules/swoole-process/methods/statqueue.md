@@ -10,6 +10,8 @@ array swoole_process->statQueue();
 
 Get the stats of the message queue used as the communication method between processes.
 
+프로세스 간의 통신 방법으로 사용되는 메시지 대기열의 통계를 가져옵니다.
+
 #### Parameter
 
 void
@@ -17,6 +19,8 @@ void
 #### Return
 
 the array of message queue
+
+메세지 큐의 배열
 
 ```php
 array(

@@ -10,13 +10,19 @@ array swoole_process->wait(bool $blocking = true);
 
 Wait for the events of child processes.
 
+하위 프로세스의 이벤트를 기다립니다.
+
 #### Parameter
 
 - `$blocking` if block the execution of this method when called
 
+- 호출 될 때이 메소드의 실행을 차단하는 경우 '$ blocking'
+
 #### Return
 
 array, it contains the exit code, pid and signal of child process.
+
+배열에는 자식 프로세스의 종료 코드, pid 및 신호가 포함됩니다.
 
 ```php
 array('code' => 0, 'pid' => 15001, 'signal' => 15);

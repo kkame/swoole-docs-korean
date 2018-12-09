@@ -2,7 +2,11 @@
 
 The swoole is an an high-performance network framework uses an event-driven, asynchronous, non-blocking I/O model makes it scalable and efficient. All the business logic is written in the callback functions of events. When a certain event is triggered, the swoole will call the callback function registered for the event. 
 
+강력한 네트워크 프레임 워크는 이벤트 중심의 비동기식 비 차단 I / O 모델을 사용하여 확장 가능하고 효율적입니다. 모든 비즈니스 로직은 이벤트의 콜백 함수로 작성됩니다. 특정 이벤트가 트리거되면 swoole은 이벤트에 대해 등록 된 콜백 함수를 호출합니다.
+
 There are thirteen types of event listed in the below table of contents.
+
+아래 목차에는 13 가지 유형의 이벤트가 나열되어 있습니다.
 
 #### Table of Contents
 
@@ -32,12 +36,22 @@ There are thirteen types of event listed in the below table of contents.
 
 - After starting the swoole server, the callback functions of `onStart/onManagerStart/onWorkerStart` are triggered in different process.
 
+- 이벤트의 모든 콜백 기능은 스풀 서버가 시작된 후에 트리거됩니다.
+
+- swoole 서버의 마지막 이벤트는 swoole 서버가 종료 될 때`onShutdown`입니다.
+
+- swoole 서버를 시작한 후`onStart / onManagerStart / onWorkerStart` 콜백 함수가 다른 프로세스에서 실행됩니다.
+
 
 #### Catch Exception
 
 The swoole doesn't support the `set_exception_handler` function.
 
+스톨은`set_exception_handler` 함수를 지원하지 않습니다.
+
 If there is the logic of throwing exception in your code, it must add the `try/catch` in the very beginning of callback function.
+
+코드에 예외를 throw하는 로직이 있다면, 콜백 함수의 시작 부분에`try / catch`를 추가해야합니다.
 
 ```php
 $serv->on('Timer', function() {
@@ -56,7 +70,9 @@ $serv->on('Timer', function() {
 
 Example of registering event callback functions:
 
-``` php
+이벤트 콜백 함수 등록의 예 :
+
+```php
 <?php
 $server = new swoole_server("127.0.0.1", 9501, SWOOLE_BASE, SWOOLE_SOCK_TCP);
 $server->on('WorkerStart', function($serv, $workerId) {

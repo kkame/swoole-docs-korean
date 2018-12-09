@@ -16,7 +16,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 $fp = stream_socket_client("tcp://www.qq.com:80", $errno, $errstr, 30);
 fwrite($fp,"GET / HTTP/1.1\r\nHost: www.qq.com\r\n\r\n");
@@ -60,7 +60,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 $fp = stream_socket_client('tcp://127.0.0.1:9501');
 $data = str_repeat('A', 1024 * 1024*2);
@@ -82,7 +82,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 swoole_event_defer(function(){
     echo "After EventLoop\n";

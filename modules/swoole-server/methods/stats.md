@@ -10,6 +10,8 @@ array swoole_server->stats()
 
 Get the TCP connections stats of the current server.
 
+현재 서버의 TCP 연결 통계를 가져옵니다.
+
 #### Parameter
 
 void
@@ -18,7 +20,9 @@ void
 
 the array of connections stats of the current server
 
-``` php
+현재 서버의 연결 통계
+
+```php
 <?php
 array (
   'start_time' => 1409831644,  // the time of server since start

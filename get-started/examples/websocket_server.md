@@ -4,7 +4,7 @@
 
 `websocket_server.php`
 
-``` php
+```php
 //Create the websocket server object 
 $websocket_server = new swoole_websocket_server("0.0.0.0", 9502);
 
@@ -51,7 +51,7 @@ Once the connection has been setted, the client and the server can make the inte
 
 ### Run program
 
-``` bash
+```bash
 php websocket_server.php
 ```
 

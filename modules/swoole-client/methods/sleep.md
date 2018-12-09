@@ -14,6 +14,8 @@ swoole_client->sleep();
 
 Remove the TCP client from system event loop.
 
+시스템 이벤트 루프에서 TCP 클라이언트를 제거하십시오.
+
 #### Parameter
 
 void
@@ -23,7 +25,7 @@ void
 void
 
 #### Example
-``` php
+```php
 $client->on("receive", function(swoole_client $cli, $data){
     //sleep mode and stop receive data
     $cli->sleep();

@@ -6,7 +6,7 @@ The `swoole_http_server` class inherits from the class `swoole_server`. It is a 
 
 ## Example code
 
-``` php
+```php
 <?php 
 $http = new swoole_http_server("127.0.0.1", 9501);
 
@@ -33,7 +33,7 @@ Compare with PHP-FPM, the default Golang HTTP server, the default Node.js HTTP s
 
 The experiment is done with benchmark tool Apache bench, on a normal PC server with Inter Core-I5 4 core CPU, 8GB memory. Swoole HTTP server hits 110K request per second.
 
-``` bash
+```bash
 ab -c 200 -n 200000 -k http://127.0.0.1:9501
 ```
 ## HTTP2 protocol support
@@ -42,13 +42,13 @@ Swoole HTTP server supports HTTP2 protocol thanks to *nghttp2* library. Openssl 
 
 PHP extension compile configuration:
 
-``` bash
+```bash
 ./configure --enable-openssl --enable-http2
 ```
 
  configuration:
 
-``` bash
+```bash
 // Enable SSL
 $server = new swoole_http_server("127.0.0.1", 9501, SWOOLE_PROCESS, SWOOLE_SOCK_TCP | SWOOLE_SSL);
 // setup the location of ssl cert files and key files

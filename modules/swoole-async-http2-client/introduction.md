@@ -10,7 +10,7 @@ Swoole HTTP2 클라이언트는 * nghttp2 *를 기반으로 * - enable-nghttp2 *
 
 ## Example
 
-``` php
+```php
 <?php
 $array = array(
     "host" => "www.google.com",
@@ -54,7 +54,7 @@ Send *GET* request, example callback function:
 
 * GET * 요청, 예제 콜백 함수 보내기 :
 
-``` php
+```php
 <?php
 function callback(Swoole\Http2\Response $resp)
 {
@@ -72,7 +72,7 @@ Send *POST* request, example:
 
 * POST * 요청 보내기, 예 :
 
-``` php
+```php
 <?php
 $cli = new swoole_http2_client('127.0.0.1', 80); 
 $cli->post('/post.php', array("a" => '1234', 'b' => '456'), function ($response) {

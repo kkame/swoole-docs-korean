@@ -6,7 +6,7 @@ Swoole async redis 클라이언트는 * hiredis *를 기반으로합니다.
 
 ### Install *hiredis* library
 
-``` bash
+```bash
 wget https://github.com/redis/hiredis/archive/v0.13.3.tar.gz
 tar zxvf v0.13.3.tar.gz
 cd hiredis-0.13.3/
@@ -17,7 +17,7 @@ sudo ldconfig
 
 #### Compile hiredis library into Swoole extension
 
-``` bash
+```bash
 ./configure --enable-async-redis
 make clean
 make -j
@@ -41,7 +41,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 $client = new swoole_redis;
 $client->connect('127.0.0.1', 6379, function (swoole_redis $client, $result) {
@@ -65,7 +65,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 $client = new swoole_redis;
 $client->on('message', function (swoole_redis $client, $result) {

@@ -4,7 +4,9 @@
 
 There are some configurations available to set the swoole client.
 
-``` php
+swoole 클라이언트를 설정할 수있는 몇 가지 구성이 있습니다.
+
+```php
 <?php
 // Check EOF
 $client->set(array(

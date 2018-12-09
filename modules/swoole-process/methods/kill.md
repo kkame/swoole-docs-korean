@@ -10,15 +10,23 @@ bool swoole_process::kill($pid, $signo = SIGTERM);
 
 Send signal to the child process.
 
+자식 프로세스에 신호를 보냅니다.
+
 #### Parameter
 
 - `$pid` the pid of child process
 
 - `$signo` the signal to send, the default is `SIGTERM`
 
+-`$ pid`는 자식 프로세스의 pid입니다.
+
+-`$ signo '보낼 신호, 기본값은`SIGTERM`이다.
+
 #### Return
 
 if sends signal successfully, it returns true, otherwise it returns false.
+
+신호가 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
 
 #### Example
 ```php

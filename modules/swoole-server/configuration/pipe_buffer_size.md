@@ -2,6 +2,8 @@
 
 Set the buffer size of pipe.
 
+파이프의 버퍼 크기를 설정하십시오.
+
 #### Usage
 
 ```php

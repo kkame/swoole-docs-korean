@@ -14,6 +14,8 @@ bool $swoole_client->close(bool $force = false);
 
 Close the connection.
 
+연결을 닫으십시오.
+
 #### Parameter
 
 - `$force` if close the connection forcibly

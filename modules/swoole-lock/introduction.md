@@ -67,7 +67,7 @@ Release the lock.
 
 ### Example:
 
-``` php
+```php
 <?php
 
 $lock = new swoole_lock(SWOOLE_MUTEX);

@@ -38,7 +38,7 @@ the timer id
 
 #### Example
 
-``` php
+```php
 <?php
 function test($timerid, $param)
 {
@@ -74,7 +74,7 @@ the timer id
 
 #### Example
 
-``` php
+```php
 <?php
 function test($param)
 {
@@ -103,7 +103,7 @@ bool
 
 #### Example
 
-``` php
+```php
 <?php
 $count = 0;
 function test($timerid, $param)

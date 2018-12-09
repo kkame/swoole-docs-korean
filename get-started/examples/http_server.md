@@ -4,7 +4,7 @@
 
 `http_server.php`
 
-``` php
+```php
 // Create the http server object 
 $http_server = new swoole_http_server("127.0.0.1", 9503);
 
@@ -43,7 +43,7 @@ The parameter `$response` is handled by swoole to send the data to client. `$res
 
 ### Run program
 
-``` bash
+```bash
 php http_server.php
 ```
 

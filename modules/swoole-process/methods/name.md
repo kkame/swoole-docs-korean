@@ -10,7 +10,11 @@ swoole_process->name(string $new_process_name);
 
 Set name of the process started.
 
+시작된 프로세스의 이름을 설정하십시오.
+
 > After the call of `swoole_process->call`, the name will be resetted
+
+>`swoole_process-> call` 호출 후 이름이 재설정됩니다.
 
 #### Parameter
 

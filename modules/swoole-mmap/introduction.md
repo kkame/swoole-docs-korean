@@ -6,7 +6,7 @@ Swoole은 api가 파일 액세스에 mmap을 사용할 수있게합니다. 이�
 
 ### Example
 
-``` php
+```php
 <?php
 $file = __DIR__.'/data.dat';
 $size = 8192;

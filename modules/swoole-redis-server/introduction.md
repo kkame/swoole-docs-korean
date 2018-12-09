@@ -14,7 +14,7 @@ The class `swoole_redis_server` inherits from the class `swoole_server`.
 
 ### Example
 
-``` php
+```php
 <?php
 use Swoole\Redis\Server;
 define('DB_FILE', '/tmp/redis.data');

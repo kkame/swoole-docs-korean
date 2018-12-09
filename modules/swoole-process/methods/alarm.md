@@ -10,6 +10,8 @@ bool swoole_process->alarm(int $interval_usec, int $type = ITIMER_REAL)
 
 High precision timer which will trigger signal every fixed interval.
 
+고정 된 간격마다 신호를 트리거하는 고정밀 타이머.
+
 #### Parameter
 
 - `$interval_usec`

@@ -2,6 +2,8 @@
 
 This event happens when the websocket connection start the handshake process. The `swoole_websocket_server` has built-in callback function registered for event `handshake`. But you can also choose to custom your callback function for event `handshake`.
 
+이 이벤트는 websocket 연결이 핸드 셰이크 프로세스를 시작할 때 발생합니다. `swoole_websocket_server`는 이벤트`handshake`를 위해 내장 된 콜백 함수를 내장하고 있습니다. 그러나 이벤트`handshake`에 대한 커스텀 콜백 함수를 선택할 수도 있습니다.
+
 #### Example
 
 ```php
@@ -10,11 +12,19 @@ function onHandShake(swoole_http_request $request, swoole_http_response $respons
 
 - If the return of function is `true`, the handshake is successful.
 
+- 함수 반환이 'true'이면 핸드 셰이크가 성공한 것입니다.
+
 > The callback function for event `handshake` is optional.
+
+> 이벤트`handshake '에 대한 콜백 함수는 선택 사항입니다.
 
 > If the callback function for event `handshake` has been customed, the event `open` would not be triggered. 
 
+> 이벤트`핸드 쉐이크 '에 대한 콜백 함수가 커스텀 화 된 경우, 이벤트`open`은 트리거되지 않습니다.
+
 > The built-in protocol of handshake is `Sec-WebSocket-Version: 13`, it needs to implemen t the process of handshake when the browser is in low-version.
+
+> 핸드 셰이크의 내장 프로토콜은`Sec-WebSocket-Version : 13`이며, 브라우저의 버전이 낮을 때 핸드 셰이크 과정을 구현해야합니다.
 
 
 #### Example Code

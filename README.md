@@ -19,15 +19,15 @@ Swoole PHP 네트워크 프레임 워크는 R & D 팀의 효율성을 높이고 
 
 Swoole follows the same principle as [Node.js](https://nodejs.org/en/) and [Netty](https://netty.io/), but for PHP.
 
-Swoole은 [Node.js] (https://nodejs.org/en/) 및 [Netty] (https://netty.io/)와 동일한 원칙을 따르지 만 PHP에서는 사용하지 않습니다.
+Swoole은 [Node.js](https://nodejs.org/en/) 및 [Netty](https://netty.io/)와 동일한 원칙을 따르지만 PHP를 위한 것 입니다.
 
 The Swoole framework is released as a [PHP extension (PECL)](https://pecl.php.net/package/swoole) and runs as a PHP CLI application.
 
-Swoole 프레임 워크는 [PHP 확장 (PECL)] (https://pecl.php.net/package/swoole)로 출시되며 PHP CLI 응용 프로그램으로 실행됩니다.
+Swoole 프레임 워크는 [PHP 확장 (PECL)](https://pecl.php.net/package/swoole)로 출시되며 PHP CLI 응용 프로그램으로 실행됩니다.
 
 ### Hello world
 
-``` php
+```php
 <?php
 $http = new swoole_http_server("127.0.0.1", 9501);
 

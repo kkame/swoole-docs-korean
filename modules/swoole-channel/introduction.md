@@ -12,7 +12,7 @@ Chan in Golang, 공유 메모리 및 뮤텍스 잠금을 기반으로합니다. 
 
 ### Example
 
-``` php
+```php
 <?php
 $chan = new Swoole\Channel(1024 * 256);
 $n = 100000;

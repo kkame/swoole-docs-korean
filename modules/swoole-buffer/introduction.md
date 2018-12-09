@@ -10,7 +10,7 @@ Memory management module enable developers managing memory like C language witho
 
 ### Quick Example
 
-``` php
+```php
 <?php
 $buffer = new swoole_buffer();
 $buffer->append(str_repeat("A", 10));

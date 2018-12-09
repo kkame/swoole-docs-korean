@@ -14,7 +14,7 @@ Swoole은 비동기 작업을위한 기능을 제공합니다. 시간이 많이 
 
 `async_task.php`
 
-``` php
+```php
 // Create the server object and listen 127.0.0.1:9501 port
 $server = new swoole_server("127.0.0.1", 9501);
 
@@ -62,6 +62,6 @@ The code above is based on `tcp_server.php`. To send task, it needs to register 
 
 ### Run program
 
-``` bash
+```bash
 php server.php
 ```

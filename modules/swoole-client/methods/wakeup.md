@@ -14,6 +14,8 @@ swoole_client->wakeup();
 
 Add the TCP client into the system event loop.
 
+TCP 클라이언트를 시스템 이벤트 루프에 추가하십시오.
+
 #### Parameter
 
 void
@@ -23,7 +25,7 @@ void
 void
 
 #### Example
-``` php
+```php
 $client->on("receive", function(swoole_client $cli, $data){
     //sleep mode and stop receive data
     $cli->sleep();

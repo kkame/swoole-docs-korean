@@ -16,7 +16,7 @@ An example of a web server written with Swoole which responds 'Hello World':
 
 Swoole로 작성된 'Hello World'로 응답하는 웹 서버의 예 :
 
-``` php
+```php
 <?php
 $http = new swoole_http_server("127.0.0.1", 9501);
 
@@ -36,7 +36,7 @@ To run the server, put the code into a file named server.php and execute it in t
 
 서버를 실행하려면 코드를 `server.php`라는 파일에 넣고 PHP의 cli 모드로 실행합니다:
 
-``` bash
+```bash
 $ php server.php
 $ curl http://127.0.0.1:9501/
 ```

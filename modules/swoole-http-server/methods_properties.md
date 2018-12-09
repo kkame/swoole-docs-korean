@@ -6,7 +6,11 @@
 
 The `swoole_http_server` class inherits from the class `swoole_server`. It is a complete implementation of http server. It supports asynchronous and synchronous mode.
 
+`swoole_http_server` 클래스는`swoole_server` 클래스에서 상속받습니다. 이것은 http 서버의 완전한 구현입니다. 비동기 및 동기 모드를 지원합니다.
+
 The swoole http server can hold a mass of connections in asynchronous or synchronous mode. 
+
+스풀 http 서 v는 비동기 또는 동기 모드로 대량의 연결을 보유 할 수 있습니다.
 
 ##### Properties
 
@@ -17,6 +21,8 @@ The swoole http server can hold a mass of connections in asynchronous or synchro
 #### swoole_http_request
 
 The object of `swoole_http_request` class contains the information of request, for example, GET, POST, etc.
+
+`swoole_http_request` 클래스의 객체는 GET, POST 등과 같은 요청 정보를 포함합니다.
 
 ##### Properties
 

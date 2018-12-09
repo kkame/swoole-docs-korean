@@ -14,7 +14,7 @@ Compare-and-Swap (CAS)은 동기화를 달성하기 위해 멀티 스레딩에 �
 
 ### Example
 
-``` php
+```php
 <?php
 $atomic = new swoole_atomic(123);
 echo $atomic->add(12)."\n";
@@ -60,7 +60,7 @@ Set the value to the atomic object.
 
 Compare and set the value of the atomic object. See more about [Compare and set](https://en.wikipedia.org/wiki/Compare-and-swap).
 
-원자 적 개체의 값을 비교하고 설정합니다. [비교 및 설정] (https://en.wikipedia.org/wiki/Compare-and-swap)에 대해 자세히 알아보십시오.
+원자 적 개체의 값을 비교하고 설정합니다. [비교 및 설정](https://en.wikipedia.org/wiki/Compare-and-swap)에 대해 자세히 알아보십시오.
 
 #### swoole_atomic->wait($timeout);
 

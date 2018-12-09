@@ -4,7 +4,7 @@
 
 `async_tcp_client.php`
 
-``` php
+```php
 // Create the asynchronous tcp client object
 $client = new swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_ASYNC);
 
@@ -57,6 +57,6 @@ It needs to register functions for the events. There are four events which must 
 
 ### Run program
 
-``` bash
+```bash
 php async_tcp_client.php
 ```

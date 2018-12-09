@@ -19,7 +19,7 @@ Example:
 
 예제:
 
-``` php
+```php
 <?php
 Swoole\Async::dnsLookup("www.google.com", function ($domainName, $ip) {
     $cli = new swoole_http_client($ip, 80);
@@ -46,7 +46,7 @@ Example:
 
 예제:
 
-``` php
+```php
 <?php
 // Set the connect timeout
 $http->set(['timeout' => 3.0]);
@@ -66,7 +66,7 @@ Example:
 
 예제:
 
-``` php
+```php
 <?php
 $client->setMethod("PUT");
 ```
@@ -99,7 +99,7 @@ Example:
 
 예제:
 
-``` php
+```php
 <?php
 
 <?php
@@ -129,7 +129,7 @@ Example:
 
 예제:
 
-``` php
+```php
 <?php
 
 $cli = new swoole_http_client('127.0.0.1', 80);
@@ -156,7 +156,7 @@ Send *POST* http request to the remote server.
 Example:
 
 예제:
-``` php
+```php
 <?php
 
 $cli = new swoole_http_client('127.0.0.1', 80); 
@@ -172,7 +172,7 @@ Upgrade to websocket protocol.
 
 웹 소켓 프로토콜로 업그레이드하십시오.
 
-``` php
+```php
 <?php
 $cli = new swoole_http_client('127.0.0.1', 9501);
 
@@ -203,7 +203,7 @@ Download file from the remote server.
 Example:
 
 예제:
-``` php
+```php
 <?php
 
 $cli = new swoole_http_client('127.0.0.1', 80);

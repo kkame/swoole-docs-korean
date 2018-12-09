@@ -2,13 +2,23 @@
 
 Set the function to check the length of package. The swoole supports the PHP function and C++ function.
 
+패키지의 길이를 확인하는 기능을 설정하십시오. swoole은 PHP 함수와 C ++ 함수를 지원합니다.
+
 The function returns an integer.
+
+이 함수는 정수를 반환합니다.
 
 - `0`, lack of data to joint a whole package
 
 - `1`, error data, the swoole will close the connection.
 
 - The length of package.
+
+- `0`, 전체 패키지 조인을위한 데이터 부족
+
+-`1`, 오류 데이터, swoole은 연결을 닫습니다.
+
+- 포장의 길이.
 
 #### PHP function
 

@@ -10,7 +10,7 @@
 
 > Swoole은 PECL 호환 패키지로 제공됩니다.
 
-``` bash
+```bash
 pecl install swoole
 ```
 ##### MacOS X \(macOS\) users
@@ -19,7 +19,7 @@ pecl install swoole
 
 > Swoole을 Mac OS X 또는 macOS 시스템에 homebrew를 통해 설치하는 것이 좋습니다
 
-``` bash
+```bash
 brew install swoole
 ```
 
@@ -41,7 +41,7 @@ The process of compile and install the swoole extension for PHP
 
 PHP 용 swoole 확장을 컴파일하고 설치하는 프로세스
 
-``` bash
+```bash
 cd swoole          #  enter the directory of swoole source code   
 phpize       	   #  prepare the build environment for a PHP extension
 ./configure        #  add configuration paramaters as needed
@@ -129,4 +129,4 @@ Enable the support of ringbuffer memory pool.
 
 **After the installation of swoole,  try the [examples](/get-started/examples.md) written by swoole.**
 
-** swoole을 설치 한 후 swoole로 작성된 [examples] (/ get-started / examples.md)를 시도하십시오. **
+** swoole을 설치 한 후 swoole로 작성된 [examples](/get-started/examples.md)를 시도하십시오. **

@@ -4,7 +4,7 @@
 
 `sync_tcp_client.php`
 
-``` php
+```php
 // Create the tcp client
 $client = new swoole_client(SWOOLE_SOCK_TCP);
 
@@ -54,6 +54,6 @@ This client is synchronous and blocking. The operations, like connect, send and 
 
 ### Run program
 
-``` bash
+```bash
 php sync_tcp_client.php
 ```

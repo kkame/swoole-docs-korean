@@ -6,7 +6,7 @@ swoole에는 swoole async MySQL 클라이언트가 포함되어 있습니다. My
 
 ## Example:
 
-``` php
+```php
 <?php
 $db = new swoole_mysql;
 $server = array(
@@ -64,7 +64,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 // serverConfig
 $server = array(
@@ -89,7 +89,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 $db = new swoole_mysql;
 $server = array(
@@ -127,7 +127,7 @@ Example:
 
 예제 :
 
-``` php
+```php
 <?php
 $db->begin(function( $db, $result) {
     $db->query("update userinfo set level = 22 where id = 1", function($db, $result) {
@@ -148,7 +148,7 @@ Example:
 
 예 :
 
-``` php
+```php
 <?php
 $db->begin(function( $db, $result) {
     $db->query("update userinfo set level = 22 where id = 1", function($db, $result) {
