@@ -1,7 +1,5 @@
 
 
-### Property
-
 #### swoole_http_request->$post
 
 The `swoole_http_request->$post` is an array which amounts to the `$_POST` of PHP.

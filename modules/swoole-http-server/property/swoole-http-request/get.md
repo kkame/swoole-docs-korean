@@ -1,7 +1,5 @@
 
 
-### Property
-
 #### swoole_http_request->$get
 
 The `swoole_http_request->$get` is an array which amounts to the `$_GET` of PHP.

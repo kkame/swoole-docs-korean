@@ -1,7 +1,5 @@
 
 
-### Property
-
 #### swoole_http_request->$files
 
 The `swoole_http_request->$files` is an array which amounts to the `$_FILES` of PHP.

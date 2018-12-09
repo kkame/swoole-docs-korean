@@ -1,7 +1,5 @@
 
 
-### Property
-
 #### swoole_http_request->$header
 
 The `swoole_http_request->$header` is an array which contains the information of http request.

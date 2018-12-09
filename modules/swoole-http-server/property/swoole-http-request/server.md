@@ -1,7 +1,5 @@
 
 
-### Property
-
 #### swoole_http_request->$server
 
 The `swoole_http_request->$server` is an array which contains the information of server and amounts to the `$_SERVER` of PHP.
